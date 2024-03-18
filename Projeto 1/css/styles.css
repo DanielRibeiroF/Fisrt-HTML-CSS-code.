@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Courier;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #61b3c2;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+/* Grid de produtos */
+.container {
+    background-color: #eeeeee;
+    min-height: 60vh;
+    padding: 50px;
+  }
+
+  .products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .card {
+    width: 29%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 20px;
+  }
+
+  .product-image {
+    height:300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #img-1 {
+    background-image: url('..//img/Produto1.jpg')
+  }
+
+  #img-2 {
+    background-image: url('..//img/Produto2.jpg')
+  }
+
+  #img-3 {
+    background-image: url('..//img/Produto3.jpg')
+  }
+
+  #img-4 {
+    background-image: url('..//img/Produto4.jpg')
+  }
+
+  #img-5 {
+    background-image: url('..//img/Produto5.jpg')
+  }
+
+  #img-6 {
+    background-image: url('..//img/Produto6.jpg')
+  }
+
+  #img-7 {
+    background-image: url('..//img/Produto7.jpg')
+  }
+
+  #img-8 {
+    background-image: url('..//img/produto8.jpg')
+  }
+
+  #img-9 {
+    background-image: url('..//img/Produto9.jpg')
+  }
+
+  h3 {
+    margin-bottom: 10px;
+    color: #61b3c2;
+    font-size: 24px;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #61b3c2;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  .btn:hover {
+    background-color: #54939e;
+  }
+
+ /* Rodapé */
+footer {
+    background-color: #61b3c2;
+    text-align: center;
+    padding: 60px;
+    color: #fff; 
+}
